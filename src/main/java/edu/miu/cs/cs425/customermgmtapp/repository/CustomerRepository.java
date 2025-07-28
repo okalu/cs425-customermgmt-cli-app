@@ -17,7 +17,8 @@ public class CustomerRepository {
     public Customer[] getAllCustomers() {
         return new Customer[] {
                 new Customer(1, "John", "Smith"),
-                new Customer(201, "Anna", "Jones")
+                new Customer(201, "Anna", "Jones"),
+                new Customer(202, "Bob", "Franks")
         };
     }
 
